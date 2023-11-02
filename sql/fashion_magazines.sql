@@ -1,4 +1,4 @@
-SELECT c.customer_name, sum(unpaid.due)
+SELECT c.customer_name AS 'Customer', sum(unpaid.due) as 'Amount Due'
 FROM customers c JOIN
 (SELECT o.customer_id,
 s.price_per_month*s.subscription_length AS due,
