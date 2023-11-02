@@ -1,6 +1,5 @@
 .vscode
 sql/solution.sql
-data/fashion_magazines.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
